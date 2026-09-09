@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>主文件&amp;头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AIFollow.cpp">
+      <Filter>实体\怪物等\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Bird1.cpp">
+      <Filter>实体\怪物等\怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>实体\怪物等</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySystem.cpp">
+      <Filter>实体\怪物等</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>实体</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationComponent.cpp">
+      <Filter>实体\组件</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributeComponent.cpp">
+      <Filter>实体\组件</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultEditorMode.cpp">
+      <Filter>EditorMode</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorMode.cpp">
+      <Filter>EditorMode</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorState.cpp">
+      <Filter>EditorMode</Filter>
+    </ClCompile>
+    <ClCompile Include="HitboxComponent.cpp">
+      <Filter>实体\组件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>主文件&amp;头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementComponent.cpp">
+      <Filter>实体\组件</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>ITEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>ITEM</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterTab.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerGUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerGUITabs.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsState.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="Rat.cpp">
+      <Filter>实体\怪物等\怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>ITEM</Filter>
+    </ClCompile>
+    <ClCompile Include="RegularTile.cpp">
+      <Filter>TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>ITEM</Filter>
+    </ClCompile>
+    <ClCompile Include="MeleeWeapon.cpp">
+      <Filter>ITEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>实体</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsSettings.cpp">
+      <Filter>主文件&amp;头文件\附属</Filter>
+    </ClCompile>
+    <ClCompile Include="TextTagSystem.cpp">
+      <Filter>主文件&amp;头文件\附属</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorMath.cpp">
+      <Filter>主文件&amp;头文件\附属</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>声音</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundMusic.cpp">
+      <Filter>声音</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>声音</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverPause.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillComponent.cpp">
+      <Filter>实体\组件</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyEditorMode.cpp">
+      <Filter>EditorMode</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelUpPause.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="DeBuff.cpp">
+      <Filter>实体\DeBuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Spider.cpp">
+      <Filter>实体\怪物等\怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySpawnerTile.cpp">
+      <Filter>TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Poisoning.cpp">
+      <Filter>实体\DeBuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Scorpion.cpp">
+      <Filter>实体\怪物等\怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="Slime.cpp">
+      <Filter>实体\怪物等\怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="Retarding.cpp">
+      <Filter>实体\DeBuff</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>主文件&amp;头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AIFollow.h">
+      <Filter>实体\怪物等\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird1.h">
+      <Filter>实体\怪物等\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySystem.h">
+      <Filter>实体\怪物等</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>实体\怪物等</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>实体</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>界面</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationComponent.h">
+      <Filter>实体\组件</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributeComponent.h">
+      <Filter>实体\组件</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultEditorMode.h">
+      <Filter>EditorMode</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorMode.h">
+      <Filter>EditorMode</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorModes.h">
+      <Filter>EditorMode</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorState.h">
+      <Filter>EditorMode</Filter>
+    </ClInclude>
+    <ClInclude Include="HitboxComponent.h">
+      <Filter>实体\组件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>界面</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementComponent.h">
+      <Filter>实体\组件</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>界面</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>ITEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>ITEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Items.h">
+      <Filter>ITEM</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterTab.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGUITabs.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsState.h">
+      <Filter>界面</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>界面</Filter>
+    </ClInclude>
+    <ClInclude Include="Rat.h">
+      <Filter>实体\怪物等\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>ITEM</Filter>
+    </ClInclude>
+    <ClInclude Include="RegularTile.h">
+      <Filter>TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>主文件&amp;头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>ITEM</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeWeapon.h">
+      <Filter>ITEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>实体</Filter>
+    </ClInclude>
+    <ClInclude Include="Tab.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsSettings.h">
+      <Filter>主文件&amp;头文件\附属</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTagSystem.h">
+      <Filter>主文件&amp;头文件\附属</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorMath.h">
+      <Filter>主文件&amp;头文件\附属</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>声音</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundMusic.h">
+      <Filter>声音</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffect.h">
+      <Filter>声音</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverPause.h">
+      <Filter>界面</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillComponent.h">
+      <Filter>实体\组件</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyEditorMode.h">
+      <Filter>EditorMode</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelUpPause.h">
+      <Filter>界面</Filter>
+    </ClInclude>
+    <ClInclude Include="DeBuff.h">
+      <Filter>实体\DeBuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Spider.h">
+      <Filter>实体\怪物等\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySpawnerTile.h">
+      <Filter>TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemies.h">
+      <Filter>实体\怪物等\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="Poisoning.h">
+      <Filter>实体\DeBuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Scorpion.h">
+      <Filter>实体\怪物等\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="Slime.h">
+      <Filter>实体\怪物等\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="Debuffs.h">
+      <Filter>实体\DeBuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Retarding.h">
+      <Filter>实体\DeBuff</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="实体">
+      <UniqueIdentifier>{f8a05866-a175-429c-885f-d402de1c6104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面">
+      <UniqueIdentifier>{310a0386-f8ca-47c5-b23e-9ecd9ecb8379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditorMode">
+      <UniqueIdentifier>{bb3578aa-aa81-42f8-96ef-8096d94e0a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{1ca25a5e-cb20-4362-8979-ab4bcca594a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ITEM">
+      <UniqueIdentifier>{4be244ea-6157-4062-b4ed-941e45ce9367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TileMap">
+      <UniqueIdentifier>{8ea39831-ea35-4bca-bf91-0e00787ff54a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="实体\组件">
+      <UniqueIdentifier>{38eb0b82-17dd-471a-9898-2a9eb2b7c23c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="声音">
+      <UniqueIdentifier>{dbf606ab-982a-4828-beb6-e908e93b937c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主文件&amp;头文件">
+      <UniqueIdentifier>{4ad5ab9b-211e-46b8-ad10-eab0c3c0e0fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主文件&amp;头文件\附属">
+      <UniqueIdentifier>{6372c54f-90e4-418f-b085-b637ba1f6eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="实体\DeBuff">
+      <UniqueIdentifier>{2a89afe0-346e-4a8d-b9ab-334acef03860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="实体\怪物等">
+      <UniqueIdentifier>{5a587c8e-53c0-462a-8769-b40ee218be63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="实体\怪物等\AI">
+      <UniqueIdentifier>{109d90f1-7d43-4de8-b4ce-491ea8c3cbca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="实体\怪物等\怪物">
+      <UniqueIdentifier>{8a337d5a-d159-4dc4-9f34-8b5c4347b909}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ToDo.txt" />
+  </ItemGroup>
+</Project>
